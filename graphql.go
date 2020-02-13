@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/internal/common"
-	"github.com/graph-gophers/graphql-go/internal/exec"
-	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
-	"github.com/graph-gophers/graphql-go/internal/exec/selected"
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/internal/schema"
-	"github.com/graph-gophers/graphql-go/internal/validation"
-	"github.com/graph-gophers/graphql-go/introspection"
-	"github.com/graph-gophers/graphql-go/log"
-	"github.com/graph-gophers/graphql-go/trace"
+	"github.com/mjm/graphql-go/errors"
+	"github.com/mjm/graphql-go/internal/common"
+	"github.com/mjm/graphql-go/internal/exec"
+	"github.com/mjm/graphql-go/internal/exec/resolvable"
+	"github.com/mjm/graphql-go/internal/exec/selected"
+	"github.com/mjm/graphql-go/internal/query"
+	"github.com/mjm/graphql-go/internal/schema"
+	"github.com/mjm/graphql-go/internal/validation"
+	"github.com/mjm/graphql-go/introspection"
+	"github.com/mjm/graphql-go/log"
+	"github.com/mjm/graphql-go/trace"
 )
 
 // ParseSchema parses a GraphQL schema and attaches the given root resolver. It returns an error if

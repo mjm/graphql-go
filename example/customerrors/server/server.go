@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/example/customerrors"
-	"github.com/graph-gophers/graphql-go/relay"
+	"github.com/mjm/graphql-go"
+	"github.com/mjm/graphql-go/example/customerrors"
+	"github.com/mjm/graphql-go/relay"
 )
 
 var schema *graphql.Schema
